@@ -2,7 +2,7 @@
 layout: post
 title:  "Women in data science"
 date:   2015-11-10 07:29:00
-categories: datascience
+tags: datascience
 ---
 It's really great to have greater and greater diversity on the IT field. Interesting panel with women data scientists:
 

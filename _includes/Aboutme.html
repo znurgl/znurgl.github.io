@@ -1,23 +1,22 @@
 <div class="sidebar-module about">
   <h4>{{ site.locales[site.default_locale].Aboutme }}</h4>
   <img title="{{site.author}}" src="{{site.aboutme_photo}}" alt="{{site.author}}"/>
-  <span>{{site.aboutme}}</span>
+  <div style="text-align: center;">{{site.aboutme}}</div>
   <br />
 
   {% if site.ShowContactInfo == "True" %}
 
-  You can contact me via:
-
-  <p>
+  <p style="text-align: center;">
     {% if site.email != empty %}
-    <a href="mailto:{{site.email}}" title="mailto: {{site.email}}"><i class="fa fa-envelope-square fa-3x"></i></a>
+    <a href="mailto:{{site.email}}" title="mailto: {{site.email}}"><i class="fa fa-envelope fa-2x"></i></a>
     {% endif %}
     {% if site.github_username != empty %}
-    <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}"><i class="fa fa-github-square fa-3x"></i></a>
+    <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}"><i class="fa fa-github fa-2x"></i></a>
     {% endif %}
     {% if site.twitter_username != empty %}
-    <a href="https://twitter.com/{{site.twitter_username}}" title="TwitterID: {{site.twitter_username}}"><i class="fa fa-twitter-square fa-3x"></i></a>
+    <a href="https://twitter.com/{{site.twitter_username}}" title="TwitterID: {{site.twitter_username}}"><i class="fa fa-twitter fa-2x"></i></a>
     {% endif %}
+    <a href="https://linkedin.com/gregbakos" title="Linkedin: Greg Bakos"><i class="fa fa-linkedin fa-2x"></i></a>
   </p>
 
   {% endif %}
