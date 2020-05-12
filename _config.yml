@@ -1,18 +1,17 @@
 # Site settings
-title: (blog [scala clojure computers])
+title: Spaceship landing site
 email: znurgl@gmail.com
-author: Greg Bakos
-keywords: "Scala, Clojure, AWS, Cluster, Programming"
+author: Gergo Bakos
+keywords: "Java, Scala, AWS, Spring, Computer Science"
 baseurl: ""
-url: "http://znurgl.net"
+url: "https://znurgl.github.io"
 twitter_username: znurgl
-github_username:  znurgl
+github_username: znurgl
 disqus_shortname: znurgl
-favicon:     "/images/favicon.ico"
-aboutme: Hi, this is Greg, a Scala developer and Clojure enthusiast.
+favicon: "/images/favicon.ico"
+aboutme: Hi, this is Gergo. JVM and big data developer.
 aboutme_photo: http://i.imgur.com/jZshyJD.jpg
 locale: en_US
-
 
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
@@ -26,8 +25,8 @@ tag_page_dir: tag
 markdown: kramdown
 # highlighter: pygments
 kramdown:
-        input: GFM
-        syntax_highlighter: rouge
+  input: GFM
+  syntax_highlighter: rouge
 
 gems: [jekyll-seo-tag, jekyll-paginate]
 

@@ -4,5 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Well-grounded software engineer, started with script languages such as perl, php and python, continued with
-good old java and its enterprise friend. Nowadays I'm crunching data with scala and spark and I'm loving it.
+I'm a software engineer, working with good old java, functional scala and what needed for a project. I prefer to stare a black screen with scripts or data fractions on it.
